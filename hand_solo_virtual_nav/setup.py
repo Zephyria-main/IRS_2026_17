@@ -13,6 +13,7 @@ data_files=[
 (os.path.join('share', package_name, 'launch'), glob('launch/*')),
 ('share/' + package_name + '/config', glob('config/*.yaml')),
 ('share/' + package_name + '/rviz', glob('rviz/*.rviz')),
+('share/' + package_name + '/map', glob('map/*')),
 ],
 install_requires=['setuptools'],
 zip_safe=True,
